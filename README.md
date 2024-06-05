@@ -1,24 +1,31 @@
-<div align=center>
-    <a href="https://3dtshirt.netlify.app/"><img src="./src/assets/banner.png" /></a>
-</div>
+# Project Proposal: Web-Based 3D Graphics Model Viewer
 
-![TailwindCSS](https://camo.githubusercontent.com/ec8056bddf659d21de39b358d9786e56731cd767117e091348411666a5e7eee6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7461696c77696e646373732d2532333338423241432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7461696c77696e642d637373266c6f676f436f6c6f723d7768697465) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
+## Project Information
+- **Course Name:** Computer Graphics
+- **Course Instructor:** Dr. Muhammad Ghazanfarullah Khan
+- **Group Members:**
+  - Muhammad Noman (19B-013-CE)
+  - Ayesha Usman (20B-038-CE)
 
-## Introduction
+## Project Summary
+The proposed project aims to develop a web-based 3D Graphics Model Viewer that allows users to upload, view, and manipulate 3D models interactively in a browser environment. Utilizing the PERN stack alongside Three.js, which is a Computer Graphics Library, this application will support various 3D model formats and provide tools for basic transformations and texture editing, targeting designers, hobbyists, and the educational sector.
 
-- A T-Shirt customizing website.
-- You can upload custom logos, texture files.
-- Write AI Prompt to help you generated custom logos and textures for your T-Shirt.
+## Objectives
+- To provide a platform where users can easily view and interact with 3D models.
+- To enable basic model manipulations such as scaling, rotation, and translation.
+- To enhance user engagement through a responsive and intuitive interface.
 
-## Tech Stack Used
+## Technical Stack
+- **Frontend:** ReactJS for UI, Three.js for rendering 3D Graphics models.
+- **Backend:** Node.js with Express for server-side logic.
+- **Database:** MongoDB for storing user and model data, PostgreSQL for transactional data.
+- **Other Tools:** Webpack for bundling, Babel for transpiling, and Mongoose for database management.
 
-- Tailwind CSS: For Styling
-- React & ThreeJS: For Front End Developement
-- NVIM: Developement
-- Git & Github: Version Control
-- Netlify: Hosting Services
-- React Icons: Icons
-- Javascript, HTML, CSS: Languages
-- OpenAI: For AI Support
+## Core Features
+1. **Model Import and Export:** Support for key 3D formats (OBJ, FBX, STL) with functionality for users to upload from their device and export their work.
+2. **Interactive Viewer:** Tools to rotate, zoom, and pan models, implemented via Three.js.
+3. **Model Manipulation:** Interface for adjusting model dimensions and applying textures.
+4. **User Interface:** A sleek, responsive design optimized for usability and performance.
 
-[website]: https://3dtshirt.netlify.app/
+## Conclusion
+This project will leverage modern web technologies to provide a robust and user-friendly environment for 3D model interaction. It is expected to enhance the accessibility of 3D model manipulation, providing a valuable tool for educational and professional use in various fields such as design and engineering.
