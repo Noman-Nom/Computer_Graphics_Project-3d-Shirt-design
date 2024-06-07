@@ -27,5 +27,7 @@ The proposed project aims to develop a web-based 3D Graphics Model Viewer that a
 3. **Model Manipulation:** Interface for adjusting model dimensions and applying textures.
 4. **User Interface:** A sleek, responsive design optimized for usability and performance.
 
+**Muhammad Noman:**
+
 ## Conclusion
 This project will leverage modern web technologies to provide a robust and user-friendly environment for 3D model interaction. It is expected to enhance the accessibility of 3D model manipulation, providing a valuable tool for educational and professional use in various fields such as design and engineering.
